@@ -1,0 +1,3 @@
+pyserial
+adafruit-io
+python-dotenv
