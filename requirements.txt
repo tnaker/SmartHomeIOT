@@ -1,3 +1,6 @@
 pyserial
 python-dotenv
 paho-mqtt
+opencv-python
+numpy
+keyboard
