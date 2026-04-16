@@ -7,6 +7,7 @@ from homebit3_dht20 import DHT20
 from aiot_rgbled import RGBLed
 from aiot_ir_receiver import IR_RX
 
+
 """
 Cấu hình chân Yolo:bit:
 - P0:       Module 4 LED (RGBLed)
