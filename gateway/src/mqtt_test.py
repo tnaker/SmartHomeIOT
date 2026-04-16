@@ -21,4 +21,4 @@ while True:
 
     print(f"Sent light: {light}, temp: {temp}")
 
-    time.sleep(3)
+    time.sleep(1)
