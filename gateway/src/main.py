@@ -1,11 +1,13 @@
 import time
 import os
 from uart import UART_Control
-from mqtt_client import MQTT_Control, TOPIC_LIGHT, TOPIC_TEMP
+from mqtt_client import MQTT_Control, TOPIC_LIGHT, TOPIC_TEMP, TOPIC_HUMI, TOPIC_IR
 
 ROUTES = {
     "LIGHT": TOPIC_LIGHT,
-    "TEMP": TOPIC_TEMP
+    "TEMP": TOPIC_TEMP,
+    "HUMI": TOPIC_HUMI,
+    "IR": TOPIC_IR
 }
 
 uart = UART_Control()

@@ -5,8 +5,10 @@ PORT = 1883
 
 TOPIC_LIGHT = "bk-iot-light"
 TOPIC_TEMP = "bk-iot-temp"
+TOPIC_HUMI = "bk-iot-humi"
 TOPIC_LED = "bk-iot-led"
 TOPIC_FAN = "bk-iot-fan"
+TOPIC_IR = "bk-iot-ir"
 
 class MQTT_Control:
     def __init__(self):
